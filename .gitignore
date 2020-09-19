@@ -130,3 +130,7 @@ dmypy.json
 
 # mysettings
 Scripts/
+*.exe
+*.ps1
+*.bat
+activate
