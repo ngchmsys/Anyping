@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        {% include 'anyping/css.html' %}
+        {% for css in css_list %}
+        <link rel="stylesheet" href="{% static css %}">
+        {% endfor %}
+        <title>Anyping | Typing Application on Django</title>
+    </head>
+    <body id="anyping">
+        <div class="container">
+            <header class="header">
+                {% block header %}
+                <h1>Anyping</h1>
+                {% endblock %}
+            </header>
+            {% block main %}
+            <main id="app">
+                <p>This page is index page.</p>
+                <p>{$ msg $}</p>
+
+                <div class="contents">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{% static 'anyping/images/python-logo-master-v3-TM-flattened.png' %}" class="img-responsive">
+                        </div>
+                        <div class="card-header">
+                            <div class="card-title h5">Python</div>
+                            <div class="card-subtitle text-gray">Python ...</div>
+                        </div>
+                        <div class="card-body">
+                            <p>Python...</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="pyping/">
+                                <button class="btn btn-primary">Try</button>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{% static 'anyping/images/javascript.png' %}" class="img-responsive">
+                        </div>
+                        <div class="card-header">
+                            <div class="card-title h5">JavaScript</div>
+                            <div class="card-subtitle text-gray">JavaScript</div>
+                        </div>
+                        <div class="card-body">
+                            <p>JavaScript...</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="jsping/">
+                                <button class="btn btn-primary">Try</button>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{% static 'anyping/images/python-logo-master-v3-TM-flattened.png' %}" class="img-responsive">
+                        </div>
+                        <div class="card-header">
+                            <div class="card-title h5">Python</div>
+                            <div class="card-subtitle text-gray">Python ...</div>
+                        </div>
+                        <div class="card-body">
+                            <p>Python...</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="pyping/">
+                                <button class="btn btn-primary">Try</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            {% endblock %}
+            <footer class="footer">
+                <small>copyright&copy;2020 mabo102.</small>
+            </footer>
+        </div>
+        <script src="{{axios}}"></script>
+        <script src="{{vue}}"></script>
+        <script src={% static js %}></script>
+    </body>
+</html>

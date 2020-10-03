@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+#anyping {
+    margin: 0;
+    font-size: 0.625rem;
+}
+
+.container {
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.header {
+    padding: .5rem 3rem;
+    background-color: #333333;
+}
+
+#app {
+    flex: 1;
+    padding: 1rem 5rem ;
+    background-color: #000000;
+}
+
+.contents {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    background-color: #333333;
+}
+
+.card {
+    margin: .5rem;
+    padding: .5rem;
+    flex: 1;
+}
+
+.img-responsive {
+    height: 80px;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 1rem 2rem;
+    background-color: #333333;
+}

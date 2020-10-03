@@ -1,0 +1,328 @@
+Future statement definitions
+The environment where the top-level script is run.
+Drop-in replacement for the _thread module.
+Low-level threading API.
+Abstract base classes according to :pep:`3119`.
+Read and write audio files in AIFF or AIFC format.
+Command-line option and argument parsing library.
+Space efficient arrays of uniformly typed numeric values.
+Abstract Syntax Tree classes and manipulation.
+Support for asynchronous command/response protocols.
+Asynchronous I/O.
+A base class for developing asynchronous socket handling services.
+Register and execute cleanup functions.
+Manipulate raw audio data.
+RFC 3548: Base16, Base32, Base64 Data Encodings; Base85 and Ascii85
+Debugger framework.
+Tools for converting between binary and various ASCII-encoded binary representations.
+Encode and decode files in binhex4 format.
+Array bisection algorithms for binary searching.
+The module that provides the built-in namespace.
+Interfaces for bzip2 compression and decompression.
+Functions for working with calendars, including some emulation of the Unix cal program.
+Helpers for running Python scripts via the Common Gateway Interface.
+Configurable traceback handler for CGI scripts.
+Module to read IFF chunks.
+Mathematical functions for complex numbers.
+Build line-oriented command interpreters.
+Facilities to implement read-eval-print loops.
+Encode and decode data and streams.
+Compile (possibly incomplete) Python code.
+Container datatypes
+Abstract base classes for containers
+Conversion functions between RGB and other color systems.
+Tools for byte-compiling all Python source files in a directory tree.
+
+Execute computations concurrently using threads or processes.
+Configuration file parser.
+Utilities for with-statement contexts.
+Context Variables
+Shallow and deep copy operations.
+Register pickle support functions.
+
+The crypt() function used to check Unix passwords.
+Write and read tabular data to and from delimited files.
+A foreign function library for Python.
+An interface to the curses library, providing portable terminal handling.
+Constants and set-membership functions for ASCII characters.
+A panel stack extension that adds depth to  curses windows.
+Emacs-like input editing in a curses window.
+Generate special methods on user-defined classes.
+Basic date and time types.
+Interfaces to various Unix "database" formats.
+Portable implementation of the simple DBM interface.
+GNU's reinterpretation of dbm.
+The standard "database" interface, based on ndbm.
+Implementation of the General Decimal Arithmetic  Specification.
+Helpers for computing differences between objects.
+Disassembler for Python bytecode.
+Support for building and installing Python modules into an existing Python installation.
+Utility functions for creating archive files (tarballs, zip files, ...)
+
+Abstract CCompiler class
+Provides the abstract base class :class:`~distutils.cmd.Command`. This class is subclassed by the modules in the distutils.command subpackage.
+Contains one module for each standard Distutils command.
+Build a binary installer for a package
+Build a "dumb" installer - a simple archive of files
+Build a binary distribution as a Windows MSI file
+Abstract base class for packagers
+Build a binary distribution as a Redhat RPM and SRPM
+Build a Windows installer
+Build all files of a package
+Build any C libraries in a package
+Build any extensions in a package
+Build the .py/.pyc files of a package
+Build the scripts of a package
+Check the meta-data of a package
+Clean a package build area
+Perform package configuration
+Install a package
+Install data files from a package
+Install C/C++ header files from a package
+Install library files from a package
+Install script files from a package
+Register a module with the Python Package Index
+Build a source distribution
+The core Distutils functionality
+
+Provides the debug flag for distutils
+Utility functions for simple dependency checking
+Utility functions for operating on directories and directory trees
+Provides the Distribution class, which represents the module distribution being built/installed/distributed
+Provides standard distutils exceptions
+Provides the Extension class, used to describe C/C++ extension modules in setup scripts
+Additional getopt functionality
+Utility functions for operating on single files
+The FileList class, used for poking about the file system and building lists of files.
+A simple logging mechanism, :pep:`282`-style
+Microsoft Compiler
+Provides the spawn() function
+Low-level access to configuration information of the Python interpreter.
+Provides the TextFile class, a simple interface to text files
+UNIX C Compiler
+Miscellaneous other utility functions
+Implements classes that represent module version numbers.
+Test pieces of code within docstrings.
+Drop-in replacement for the threading module.
+Package supporting the parsing, manipulating, and generating email messages.
+Character Sets
+Storing and Retrieving Content from MIME Parts
+Encoders for email message payloads.
+The exception classes used by the email package.
+Generate flat text email messages from a message structure.
+Representing non-ASCII headers
+Automatic Parsing of headers based on the field name
+Iterate over a  message object tree.
+The base class representing email messages.
+Build MIME messages.
+Parse flat text email messages to produce a message object structure.
+Controlling the parsing and generating of messages
+Miscellaneous email package utilities.
+
+Internationalized Domain Names implementation
+Windows ANSI codepage
+UTF-8 codec with BOM signature
+Bootstrapping the "pip" installer into an existing Python installation or virtual environment.
+Implementation of an enumeration class.
+Standard errno system symbols.
+Dump the Python traceback.
+The fcntl() and ioctl() system calls.
+Compare files efficiently.
+Loop over standard input or a list of files.
+Unix shell style filename pattern matching.
+Generic output formatter and device interface.
+Rational numbers.
+FTP protocol client (requires sockets).
+Higher-order functions and operations on callable objects.
+Interface to the cycle-detecting garbage collector.
+Portable parser for command line options; support both short and long option names.
+Portable reading of passwords and retrieval of the userid.
+Multilingual internationalization services.
+Unix shell style pathname pattern expansion.
+The group database (getgrnam() and friends).
+Interfaces for gzip compression and decompression using file objects.
+Secure hash and message digest algorithms.
+Heap queue algorithm (a.k.a. priority queue).
+Keyed-Hashing for Message Authentication (HMAC) implementation
+Helpers for manipulating HTML.
+Definitions of HTML general entities.
+A simple parser that can handle HTML and XHTML.
+HTTP status codes and messages
+HTTP and HTTPS protocol client (requires sockets).
+Classes for automatic handling of HTTP cookies.
+Support for HTTP state management (cookies).
+HTTP server and request handlers.
+IMAP4 protocol client (requires sockets).
+Determine the type of image contained in a file or byte stream.
+Access the implementation of the import statement.
+The implementation of the import machinery.
+Abstract base classes related to import
+Importers and path hooks
+Package resource reading, opening, and access
+Utility code for importers
+Extract information and source code from live objects.
+Core tools for working with streams.
+IPv4/IPv6 manipulation library.
+Functions creating iterators for efficient looping.
+Encode and decode the JSON format.
+A command line to validate and pretty-print JSON.
+Test whether a string is a keyword in Python.
+The 2to3 library
+Provides random access to individual lines from text files.
+Internationalization services.
+Flexible event logging system for applications.
+Configuration of the logging module.
+Handlers for the logging module.
+A Python wrapper for the liblzma compression library.
+Manipulate mailboxes in various formats
+Mailcap file handling.
+Convert Python objects to streams of bytes and back (with different constraints).
+Mathematical functions (sin() etc.).
+Mapping of filename extensions to MIME types.
+Interface to memory-mapped files for Unix and Windows.
+Find modules used by a script.
+Creation of Microsoft Installer files, and CAB files.
+Miscellaneous useful routines from the MS VC++ runtime.
+Process-based parallelism.
+API for dealing with sockets.
+Dumb wrapper around threading.
+Share data between process with shared objects.
+Create pools of processes.
+Provides shared memory for direct access across processes.
+Allocate ctypes objects from shared memory.
+Loading of .netrc files.
+Interface to Sun's NIS (Yellow Pages) library.
+NNTP protocol client (requires sockets).
+Numeric abstract base classes (Complex, Real, Integral, etc.).
+Functions corresponding to the standard operators.
+Command-line option parsing library.
+Miscellaneous operating system interfaces.
+Operations on pathnames.
+Access to OSS-compatible audio devices.
+Access parse trees for Python source code.
+Object-oriented filesystem paths
+The Python debugger for interactive interpreters.
+Convert Python objects to streams of bytes and back.
+Contains extensive comments about the pickle protocols and pickle-machine opcodes, as well as some useful functions.
+A Python interface to Unix shell pipelines.
+Utilities for the import system.
+Retrieves as much platform identifying data as possible.
+Generate and parse Mac OS X plist files.
+POP3 protocol client (requires sockets).
+The most common POSIX system calls (normally used via module os).
+Data pretty printer.
+Python source profiler.
+Statistics object for use with the profiler.
+Pseudo-Terminal Handling for Linux.
+The password database (getpwnam() and friends).
+Generate byte-code files from Python source files.
+Supports information extraction for a Python module browser.
+Documentation generator and online help system.
+A synchronized queue class.
+Encode and decode files using the MIME quoted-printable encoding.
+Generate pseudo-random numbers with various common distributions.
+Regular expression operations.
+GNU readline support for Python.
+Alternate repr() implementation with size limits.
+An interface to provide resource usage information on the current process.
+Python identifier completion, suitable for the GNU readline library.
+Locate and run Python modules without importing them first.
+General purpose event scheduler.
+Generate secure random numbers for managing secrets.
+Wait for I/O completion on multiple streams.
+High-level I/O multiplexing.
+Python object persistence.
+Simple lexical analysis for Unix shell-like languages.
+High-level file operations, including copying.
+Set handlers for asynchronous events.
+Module responsible for site-specific configuration.
+A SMTP server implementation in Python.
+SMTP protocol client (requires sockets).
+Determine type of a sound file.
+Low-level networking interface.
+A framework for network servers.
+The shadow password database (getspnam() and friends).
+A DB-API 2.0 implementation using SQLite 3.x.
+TLS/SSL wrapper for socket objects
+Utilities for interpreting the results of os.stat(), os.lstat() and os.fstat().
+Mathematical statistics functions
+Common string operations.
+String preparation, as per RFC 3453
+Interpret bytes as packed binary data.
+Subprocess management.
+Provide an interface to the Sun AU sound format.
+Constants representing internal nodes of the parse tree.
+Interface to the compiler's internal symbol tables.
+Access system-specific parameters and functions.
+Python's configuration information
+An interface to the Unix syslog library routines.
+Tool for detecting white space related problems in Python source files in a directory tree.
+Read and write tar-format archive files.
+Telnet client class.
+Generate temporary files and directories.
+POSIX style tty control.
+Regression tests package containing the testing suite for Python.
+Support for Python's regression test suite.
+Support for Python's script execution tests.
+Text wrapping and filling
+Thread-based parallelism.
+Time access and conversions.
+Measure the execution time of small code snippets.
+Interface to Tcl/Tk for graphical user interfaces
+Text widget with a vertical scroll bar.
+Tk Extension Widgets for Tkinter
+Tk themed widget set
+Constants representing terminal nodes of the parse tree.
+Lexical scanner for Python source code.
+Trace or track Python statement execution.
+Print or retrieve a stack traceback.
+Trace memory allocations.
+Utility functions that perform common terminal control operations.
+An educational framework for simple graphics applications
+A viewer for example turtle scripts
+Names for built-in types.
+Support for type hints (see :pep:`484`).
+Access the Unicode Database.
+Unit testing framework for Python.
+Mock object library.
+
+Exception classes raised by urllib.request.
+Parse URLs into or assemble them from components.
+Extensible library for opening URLs.
+Response classes used by urllib.
+Load a robots.txt file and answer questions about fetchability of other URLs.
+Encode and decode files in uuencode format.
+UUID objects (universally unique identifiers) according to RFC 4122
+Creation of virtual environments.
+Issue warning messages and control their disposition.
+Provide an interface to the WAV sound format.
+Support for weak references and weak dictionaries.
+Easy-to-use controller for Web browsers.
+Routines and objects for manipulating the Windows registry.
+Access to the sound-playing machinery for Windows.
+WSGI Utilities and Reference Implementation.
+WSGI server/gateway base classes.
+WSGI response header tools.
+A simple WSGI HTTP server.
+WSGI environment utilities.
+WSGI conformance checker.
+Encoders and decoders for the External Data Representation (XDR).
+Package containing XML processing modules
+Document Object Model API for Python.
+Minimal Document Object Model (DOM) implementation.
+Support for building partial DOM trees from SAX events.
+Implementation of the ElementTree API.
+An interface to the Expat non-validating XML parser.
+
+
+Package containing SAX2 base classes and convenience functions.
+Base classes for SAX event handlers.
+Convenience functions and classes for use with SAX.
+Interface which SAX-compliant XML parsers must implement.
+
+XML-RPC client access.
+Basic XML-RPC server implementations.
+Manage executable Python zip archives
+Read and write ZIP-format archive files.
+Support for importing Python modules from ZIP archives.
+Low-level interface to compression and decompression routines compatible with gzip.

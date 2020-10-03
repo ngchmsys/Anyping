@@ -1,0 +1,43 @@
+{% extends 'anyping/index.html' %}
+
+{% load static %}
+
+{% block header %}
+            <nav class="navbar">
+                <section class="navbar-section">
+                    <a href="../" class="navbar-brand mr-2">Anyping</a>
+                </section>
+                <section class="navbar-center">
+                    <a href="../">
+                        <img src="{% static logo %}" alt="Logo" class="logo">
+                    </a>
+                </section>
+                <section class="navbar-section">
+                    <a href="#" class="btn btn-link">Docs</a>
+                    <a href="#" class="btn btn-link">GitHub</a>
+                </section>
+            </nav>
+{% endblock %}
+
+{% block main %}
+            <main id="app">
+                <div class="game_header">
+                    <p>This page is for Python.</p>
+                </div>
+                <div class="game_body">
+                    <p v-if="loading" class="loading loading-lg">Now loading...</p>
+                    <template v-else>
+                    <div class="quest">
+                        <p class="score">SCORE: {$ score $}</p>
+                        <meter class="meter" id="charge" :value="charge" min="0" :max="CHARGE_LIMIT">{$ charge_point $}</meter>
+<!--                        <p class="q">{$ df[q_no].code $}</p>-->
+                        <p class="q"><span class="comped">{$ ans $}</span>{$ ans_notcomp $}</p>
+                        <small class="description">{$ df[q_no].desc $}</small>
+                    </div>
+                    </template>
+                </div>
+                <div class="game_footer">
+                    <p>{$ compair $} {$ pos $} / {$ df[q_no].code.length $} [ {$ wrong_count $} ]</p>
+                </div>
+            </main>
+{% endblock %}

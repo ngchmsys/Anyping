@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.navbar {
+    padding: 0 1rem;
+}
+
+.logo {
+    width: 150px;
+    height: 45px;
+}
+
+#app {
+    flex: 1;
+    padding: 1rem 5rem;
+    background-color: #000000;
+}
+
+.game_body {
+    background-image: url(../images/macbook1697_TP_V.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: transparent;
+
+    background-color: #333333;
+    border: 3px solid #666666;
+    border-radius: .5rem;
+}
+
+.quest {
+    padding: 2rem 5rem;
+}
+
+.comped {
+    color: #333333;
+}
+
+.q {
+    padding: 2rem .5rem;
+    border-color: #cccccc;
+    border-width: 3px;
+    border-radius: .5rem;
+    background-color: #666666;
+    font-size: 2rem;
+    text-align: center;
+    color: #cccccc;
+    opacity: 0.8;
+}
+
+.description {
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .quest {
+        padding: 1rem;
+    }
+
+    .q {
+        padding: 1.5rem .5rem;
+        border-color: #cccccc;
+        border-width: 3px;
+        border-radius: .5rem;
+        background-color: #666666;
+        font-size: 1rem;
+        text-align: center;
+        color: #cccccc;
+        opacity: 0.8;
+    }
+}
